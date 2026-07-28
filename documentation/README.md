@@ -29,3 +29,6 @@ Churn Risk :
    Offer personalized discounts
    Ask for feedback
 
+## Dashboard Preview
+
+![Customer Segmentation Dashboard](PowerBI/dashboard.png)
