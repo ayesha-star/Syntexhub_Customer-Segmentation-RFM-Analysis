@@ -31,4 +31,4 @@ Churn Risk :
 
 ## Dashboard Preview
 
-![Customer Segmentation Dashboard](powerbi/dashboard.png)
+![Customer Segmentation Dashboard](images/dashboard.png)
