@@ -1,0 +1,501 @@
+TransactionID,CustomerID,CustomerName,PurchaseDate,ProductCategory,ProductName,Quantity,UnitPrice,TotalAmount,PaymentMethod,City
+T0001,C001,Aarav Sharma,2026-03-24,Clothing,Jeans,1,30,30,UPI,Mumbai
+T0002,C001,Aarav Sharma,2026-04-04,Home,Bottle,5,50,250,UPI,Mumbai
+T0003,C001,Aarav Sharma,2026-01-23,Beauty,Shampoo,1,50,50,UPI,Mumbai
+T0004,C001,Aarav Sharma,2026-05-22,Beauty,Face Wash,5,30,150,Credit Card,Mumbai
+T0005,C001,Aarav Sharma,2026-06-11,Home,Bottle,5,500,2500,Cash,Mumbai
+T0006,C001,Aarav Sharma,2026-01-13,Clothing,T-Shirt,5,40,200,Debit Card,Mumbai
+T0007,C001,Aarav Sharma,2026-04-18,Clothing,T-Shirt,5,75,375,Credit Card,Mumbai
+T0008,C001,Aarav Sharma,2026-01-27,Home,Bottle,3,30,90,UPI,Mumbai
+T0009,C002,Vivaan Sharma,2026-05-25,Electronics,Headphones,2,200,400,Cash,Pune
+T0010,C002,Vivaan Sharma,2026-03-22,Beauty,Shampoo,3,75,225,Credit Card,Pune
+T0011,C002,Vivaan Sharma,2026-02-16,Clothing,T-Shirt,5,75,375,Cash,Pune
+T0012,C002,Vivaan Sharma,2026-03-29,Beauty,Shampoo,5,30,150,UPI,Pune
+T0013,C002,Vivaan Sharma,2026-05-12,Beauty,Face Wash,3,40,120,Cash,Pune
+T0014,C002,Vivaan Sharma,2026-04-18,Electronics,Headphones,1,300,300,Debit Card,Pune
+T0015,C002,Vivaan Sharma,2026-03-29,Grocery,Tea,5,200,1000,UPI,Pune
+T0016,C002,Vivaan Sharma,2026-01-24,Grocery,Tea,1,20,20,Debit Card,Pune
+T0017,C003,Aditya Sharma,2026-06-15,Home,Mixer,3,150,450,Debit Card,Delhi
+T0018,C003,Aditya Sharma,2026-01-06,Beauty,Shampoo,2,500,1000,UPI,Delhi
+T0019,C003,Aditya Sharma,2026-05-07,Electronics,Mouse,3,40,120,Credit Card,Delhi
+T0020,C003,Aditya Sharma,2026-04-12,Beauty,Shampoo,1,40,40,Cash,Delhi
+T0021,C003,Aditya Sharma,2026-04-13,Home,Mixer,2,150,300,Debit Card,Delhi
+T0022,C003,Aditya Sharma,2026-06-30,Beauty,Shampoo,4,50,200,Credit Card,Delhi
+T0023,C003,Aditya Sharma,2026-01-22,Clothing,T-Shirt,2,50,100,UPI,Delhi
+T0024,C003,Aditya Sharma,2026-05-05,Home,Bottle,3,75,225,UPI,Delhi
+T0025,C004,Rahul Sharma,2026-02-07,Beauty,Shampoo,5,500,2500,Debit Card,Bengaluru
+T0026,C004,Rahul Sharma,2026-02-02,Home,Bottle,4,300,1200,Cash,Bengaluru
+T0027,C004,Rahul Sharma,2026-04-12,Beauty,Shampoo,1,200,200,Cash,Bengaluru
+T0028,C004,Rahul Sharma,2026-01-16,Clothing,T-Shirt,2,200,400,Credit Card,Bengaluru
+T0029,C004,Rahul Sharma,2026-01-29,Grocery,Rice,1,20,20,Credit Card,Bengaluru
+T0030,C004,Rahul Sharma,2026-05-18,Electronics,Keyboard,5,20,100,UPI,Bengaluru
+T0031,C004,Rahul Sharma,2026-02-23,Home,Mixer,2,75,150,Debit Card,Bengaluru
+T0032,C004,Rahul Sharma,2026-06-04,Grocery,Tea,1,30,30,Cash,Bengaluru
+T0033,C005,Arjun Sharma,2026-04-30,Beauty,Shampoo,3,30,90,Credit Card,Hyderabad
+T0034,C005,Arjun Sharma,2026-01-27,Grocery,Tea,4,40,160,UPI,Hyderabad
+T0035,C005,Arjun Sharma,2026-02-22,Home,Mixer,2,300,600,UPI,Hyderabad
+T0036,C005,Arjun Sharma,2026-05-16,Grocery,Rice,3,300,900,Debit Card,Hyderabad
+T0037,C005,Arjun Sharma,2026-02-12,Grocery,Rice,5,300,1500,Debit Card,Hyderabad
+T0038,C005,Arjun Sharma,2026-06-12,Clothing,T-Shirt,2,150,300,Credit Card,Hyderabad
+T0039,C005,Arjun Sharma,2026-02-21,Home,Mixer,3,20,60,UPI,Hyderabad
+T0040,C005,Arjun Sharma,2026-03-13,Beauty,Shampoo,2,500,1000,Debit Card,Hyderabad
+T0041,C006,Rohan Sharma,2026-04-25,Grocery,Tea,1,50,50,UPI,Chennai
+T0042,C006,Rohan Sharma,2026-02-28,Beauty,Face Wash,3,50,150,Cash,Chennai
+T0043,C006,Rohan Sharma,2026-06-09,Home,Bottle,4,100,400,UPI,Chennai
+T0044,C006,Rohan Sharma,2026-06-19,Electronics,Keyboard,2,200,400,Credit Card,Chennai
+T0045,C006,Rohan Sharma,2026-04-22,Grocery,Rice,4,200,800,Cash,Chennai
+T0046,C006,Rohan Sharma,2026-01-22,Clothing,T-Shirt,2,20,40,Credit Card,Chennai
+T0047,C006,Rohan Sharma,2026-06-01,Beauty,Face Wash,5,500,2500,Cash,Chennai
+T0048,C006,Rohan Sharma,2026-06-18,Grocery,Rice,5,300,1500,Credit Card,Chennai
+T0049,C007,Priya Sharma,2026-01-06,Electronics,Headphones,1,300,300,Credit Card,Kolkata
+T0050,C007,Priya Sharma,2026-04-22,Clothing,T-Shirt,1,75,75,Credit Card,Kolkata
+T0051,C007,Priya Sharma,2026-03-16,Home,Bottle,5,100,500,Debit Card,Kolkata
+T0052,C007,Priya Sharma,2026-05-20,Beauty,Face Wash,1,100,100,Cash,Kolkata
+T0053,C007,Priya Sharma,2026-06-19,Home,Mixer,5,40,200,Credit Card,Kolkata
+T0054,C007,Priya Sharma,2026-05-15,Home,Bottle,4,40,160,UPI,Kolkata
+T0055,C007,Priya Sharma,2026-02-08,Clothing,T-Shirt,4,500,2000,UPI,Kolkata
+T0056,C007,Priya Sharma,2026-05-23,Electronics,Keyboard,5,300,1500,Cash,Kolkata
+T0057,C008,Sneha Sharma,2026-01-28,Home,Bottle,2,50,100,Debit Card,Ahmedabad
+T0058,C008,Sneha Sharma,2026-01-11,Electronics,Headphones,4,300,1200,UPI,Ahmedabad
+T0059,C008,Sneha Sharma,2026-01-17,Beauty,Shampoo,5,300,1500,Credit Card,Ahmedabad
+T0060,C008,Sneha Sharma,2026-06-27,Grocery,Tea,5,300,1500,Cash,Ahmedabad
+T0061,C008,Sneha Sharma,2026-05-10,Clothing,Jeans,5,50,250,Cash,Ahmedabad
+T0062,C008,Sneha Sharma,2026-02-05,Beauty,Face Wash,4,200,800,Debit Card,Ahmedabad
+T0063,C008,Sneha Sharma,2026-01-19,Clothing,Jeans,1,50,50,Debit Card,Ahmedabad
+T0064,C008,Sneha Sharma,2026-02-01,Clothing,Jeans,2,75,150,Credit Card,Ahmedabad
+T0065,C009,Ananya Sharma,2026-04-30,Clothing,T-Shirt,4,200,800,Credit Card,Surat
+T0066,C009,Ananya Sharma,2026-06-20,Clothing,T-Shirt,4,300,1200,Cash,Surat
+T0067,C009,Ananya Sharma,2026-03-28,Beauty,Face Wash,3,100,300,UPI,Surat
+T0068,C009,Ananya Sharma,2026-04-04,Electronics,Keyboard,5,200,1000,Cash,Surat
+T0069,C009,Ananya Sharma,2026-06-30,Electronics,Keyboard,3,300,900,Debit Card,Surat
+T0070,C009,Ananya Sharma,2026-05-12,Electronics,Mouse,2,30,60,UPI,Surat
+T0071,C009,Ananya Sharma,2026-03-09,Grocery,Rice,2,75,150,Credit Card,Surat
+T0072,C009,Ananya Sharma,2026-04-19,Grocery,Tea,2,300,600,Cash,Surat
+T0073,C010,Ayesha Sharma,2026-06-29,Grocery,Rice,3,20,60,Credit Card,Jaipur
+T0074,C010,Ayesha Sharma,2026-04-19,Electronics,Keyboard,1,30,30,Debit Card,Jaipur
+T0075,C010,Ayesha Sharma,2026-01-22,Home,Bottle,1,75,75,UPI,Jaipur
+T0076,C010,Ayesha Sharma,2026-04-27,Electronics,Keyboard,5,150,750,Debit Card,Jaipur
+T0077,C010,Ayesha Sharma,2026-06-09,Clothing,T-Shirt,5,50,250,UPI,Jaipur
+T0078,C010,Ayesha Sharma,2026-02-11,Grocery,Rice,2,50,100,Debit Card,Jaipur
+T0079,C010,Ayesha Sharma,2026-06-10,Grocery,Rice,3,200,600,Credit Card,Jaipur
+T0080,C010,Ayesha Sharma,2026-03-11,Grocery,Rice,3,20,60,UPI,Jaipur
+T0081,C011,Neha Sharma,2026-01-05,Home,Bottle,5,200,1000,Credit Card,Mumbai
+T0082,C011,Neha Sharma,2026-04-25,Electronics,Headphones,4,200,800,Cash,Mumbai
+T0083,C011,Neha Sharma,2026-05-10,Grocery,Rice,2,100,200,Credit Card,Mumbai
+T0084,C011,Neha Sharma,2026-06-30,Clothing,Jeans,3,20,60,Credit Card,Mumbai
+T0085,C011,Neha Sharma,2026-01-04,Electronics,Headphones,3,150,450,Credit Card,Mumbai
+T0086,C011,Neha Sharma,2026-01-15,Electronics,Headphones,4,300,1200,Debit Card,Mumbai
+T0087,C011,Neha Sharma,2026-06-03,Clothing,Jeans,1,200,200,Credit Card,Mumbai
+T0088,C011,Neha Sharma,2026-02-10,Grocery,Tea,1,75,75,Debit Card,Mumbai
+T0089,C012,Karan Sharma,2026-03-26,Home,Mixer,2,20,40,Debit Card,Pune
+T0090,C012,Karan Sharma,2026-02-25,Grocery,Rice,1,100,100,Cash,Pune
+T0091,C012,Karan Sharma,2026-01-22,Beauty,Shampoo,5,50,250,Credit Card,Pune
+T0092,C012,Karan Sharma,2026-05-10,Electronics,Mouse,3,30,90,Credit Card,Pune
+T0093,C012,Karan Sharma,2026-04-13,Home,Bottle,4,20,80,Debit Card,Pune
+T0094,C012,Karan Sharma,2026-03-19,Clothing,T-Shirt,5,300,1500,Credit Card,Pune
+T0095,C012,Karan Sharma,2026-06-18,Home,Mixer,3,200,600,Credit Card,Pune
+T0096,C012,Karan Sharma,2026-03-14,Home,Bottle,1,300,300,Cash,Pune
+T0097,C013,Ishita Sharma,2026-06-29,Home,Bottle,5,300,1500,UPI,Delhi
+T0098,C013,Ishita Sharma,2026-06-25,Home,Bottle,1,20,20,UPI,Delhi
+T0099,C013,Ishita Sharma,2026-02-04,Grocery,Rice,4,200,800,UPI,Delhi
+T0100,C013,Ishita Sharma,2026-06-10,Electronics,Headphones,5,50,250,Cash,Delhi
+T0101,C013,Ishita Sharma,2026-03-09,Electronics,Keyboard,1,300,300,UPI,Delhi
+T0102,C013,Ishita Sharma,2026-06-18,Home,Bottle,4,75,300,UPI,Delhi
+T0103,C013,Ishita Sharma,2026-03-09,Clothing,T-Shirt,2,200,400,Cash,Delhi
+T0104,C013,Ishita Sharma,2026-04-08,Electronics,Keyboard,3,20,60,Credit Card,Delhi
+T0105,C014,Meera Sharma,2026-01-20,Home,Bottle,3,75,225,Debit Card,Bengaluru
+T0106,C014,Meera Sharma,2026-06-09,Home,Bottle,1,200,200,UPI,Bengaluru
+T0107,C014,Meera Sharma,2026-05-05,Grocery,Rice,2,200,400,Debit Card,Bengaluru
+T0108,C014,Meera Sharma,2026-05-13,Grocery,Tea,4,200,800,UPI,Bengaluru
+T0109,C014,Meera Sharma,2026-05-21,Clothing,Jeans,1,200,200,UPI,Bengaluru
+T0110,C014,Meera Sharma,2026-03-16,Beauty,Face Wash,5,200,1000,Debit Card,Bengaluru
+T0111,C014,Meera Sharma,2026-04-10,Clothing,T-Shirt,1,500,500,UPI,Bengaluru
+T0112,C014,Meera Sharma,2026-02-06,Home,Mixer,3,40,120,Debit Card,Bengaluru
+T0113,C015,Kabir Sharma,2026-01-29,Grocery,Rice,4,200,800,Cash,Hyderabad
+T0114,C015,Kabir Sharma,2026-01-07,Clothing,T-Shirt,4,200,800,Cash,Hyderabad
+T0115,C015,Kabir Sharma,2026-03-19,Clothing,Jeans,3,150,450,Debit Card,Hyderabad
+T0116,C015,Kabir Sharma,2026-01-31,Grocery,Rice,3,100,300,Cash,Hyderabad
+T0117,C015,Kabir Sharma,2026-01-31,Clothing,T-Shirt,3,75,225,Debit Card,Hyderabad
+T0118,C015,Kabir Sharma,2026-01-17,Beauty,Shampoo,5,30,150,Debit Card,Hyderabad
+T0119,C015,Kabir Sharma,2026-04-20,Grocery,Rice,3,30,90,UPI,Hyderabad
+T0120,C015,Kabir Sharma,2026-06-19,Grocery,Rice,2,75,150,Cash,Hyderabad
+T0121,C016,Sanya Sharma,2026-05-11,Grocery,Rice,3,150,450,UPI,Chennai
+T0122,C016,Sanya Sharma,2026-06-11,Beauty,Face Wash,1,20,20,Cash,Chennai
+T0123,C016,Sanya Sharma,2026-04-26,Home,Bottle,3,200,600,UPI,Chennai
+T0124,C016,Sanya Sharma,2026-05-21,Clothing,T-Shirt,4,150,600,Debit Card,Chennai
+T0125,C016,Sanya Sharma,2026-03-14,Grocery,Tea,3,150,450,Credit Card,Chennai
+T0126,C016,Sanya Sharma,2026-03-19,Beauty,Shampoo,1,40,40,Credit Card,Chennai
+T0127,C016,Sanya Sharma,2026-01-20,Clothing,Jeans,5,50,250,Cash,Chennai
+T0128,C016,Sanya Sharma,2026-03-27,Beauty,Shampoo,2,300,600,Credit Card,Chennai
+T0129,C017,Riya Sharma,2026-03-04,Electronics,Mouse,3,300,900,UPI,Kolkata
+T0130,C017,Riya Sharma,2026-03-23,Clothing,Jeans,3,500,1500,Credit Card,Kolkata
+T0131,C017,Riya Sharma,2026-01-06,Beauty,Shampoo,4,300,1200,Credit Card,Kolkata
+T0132,C017,Riya Sharma,2026-04-07,Grocery,Tea,1,200,200,Debit Card,Kolkata
+T0133,C017,Riya Sharma,2026-05-28,Grocery,Rice,5,300,1500,Credit Card,Kolkata
+T0134,C017,Riya Sharma,2026-01-24,Grocery,Rice,4,150,600,Cash,Kolkata
+T0135,C017,Riya Sharma,2026-04-21,Grocery,Rice,2,20,40,Cash,Kolkata
+T0136,C017,Riya Sharma,2026-05-02,Home,Mixer,1,30,30,Cash,Kolkata
+T0137,C018,Aditi Sharma,2026-05-16,Beauty,Shampoo,2,30,60,Credit Card,Ahmedabad
+T0138,C018,Aditi Sharma,2026-02-09,Clothing,T-Shirt,4,30,120,UPI,Ahmedabad
+T0139,C018,Aditi Sharma,2026-01-01,Clothing,T-Shirt,5,20,100,Debit Card,Ahmedabad
+T0140,C018,Aditi Sharma,2026-02-02,Grocery,Tea,1,30,30,UPI,Ahmedabad
+T0141,C018,Aditi Sharma,2026-03-18,Home,Bottle,4,75,300,Credit Card,Ahmedabad
+T0142,C018,Aditi Sharma,2026-06-03,Electronics,Mouse,5,75,375,Cash,Ahmedabad
+T0143,C018,Aditi Sharma,2026-03-13,Grocery,Rice,4,300,1200,Credit Card,Ahmedabad
+T0144,C018,Aditi Sharma,2026-05-21,Clothing,T-Shirt,4,75,300,UPI,Ahmedabad
+T0145,C019,Yash Sharma,2026-01-06,Clothing,Jeans,4,30,120,Debit Card,Surat
+T0146,C019,Yash Sharma,2026-02-28,Beauty,Shampoo,2,200,400,UPI,Surat
+T0147,C019,Yash Sharma,2026-06-28,Grocery,Tea,3,150,450,Credit Card,Surat
+T0148,C019,Yash Sharma,2026-01-02,Grocery,Rice,2,200,400,Credit Card,Surat
+T0149,C019,Yash Sharma,2026-03-21,Clothing,T-Shirt,4,50,200,Debit Card,Surat
+T0150,C019,Yash Sharma,2026-03-17,Electronics,Headphones,4,500,2000,Credit Card,Surat
+T0151,C019,Yash Sharma,2026-02-27,Beauty,Shampoo,1,500,500,Credit Card,Surat
+T0152,C019,Yash Sharma,2026-04-11,Electronics,Mouse,1,500,500,Credit Card,Surat
+T0153,C020,Nikhil Sharma,2026-04-17,Electronics,Headphones,1,40,40,Cash,Jaipur
+T0154,C020,Nikhil Sharma,2026-04-26,Grocery,Rice,1,40,40,Debit Card,Jaipur
+T0155,C020,Nikhil Sharma,2026-02-18,Clothing,Jeans,1,75,75,Cash,Jaipur
+T0156,C020,Nikhil Sharma,2026-04-06,Grocery,Tea,2,30,60,UPI,Jaipur
+T0157,C020,Nikhil Sharma,2026-01-21,Grocery,Rice,3,150,450,UPI,Jaipur
+T0158,C020,Nikhil Sharma,2026-05-24,Clothing,Jeans,3,75,225,Cash,Jaipur
+T0159,C020,Nikhil Sharma,2026-01-23,Electronics,Headphones,4,50,200,Debit Card,Jaipur
+T0160,C020,Nikhil Sharma,2026-05-19,Beauty,Face Wash,3,100,300,Cash,Jaipur
+T0161,C021,Aarav Patel,2025-02-01,Beauty,Face Wash,4,20,80,Cash,Mumbai
+T0162,C021,Aarav Patel,2025-02-05,Beauty,Face Wash,1,75,75,Credit Card,Mumbai
+T0163,C021,Aarav Patel,2025-03-06,Home,Mixer,3,75,225,Debit Card,Mumbai
+T0164,C021,Aarav Patel,2025-02-14,Grocery,Tea,3,75,225,UPI,Mumbai
+T0165,C021,Aarav Patel,2025-03-08,Electronics,Mouse,1,200,200,Cash,Mumbai
+T0166,C021,Aarav Patel,2026-01-31,Grocery,Tea,4,40,160,Cash,Mumbai
+T0167,C022,Vivaan Patel,2025-07-07,Electronics,Headphones,3,40,120,Credit Card,Pune
+T0168,C022,Vivaan Patel,2025-12-02,Grocery,Tea,3,500,1500,UPI,Pune
+T0169,C022,Vivaan Patel,2026-06-09,Clothing,Jeans,2,50,100,Cash,Pune
+T0170,C022,Vivaan Patel,2025-03-08,Electronics,Keyboard,5,300,1500,Debit Card,Pune
+T0171,C022,Vivaan Patel,2025-06-14,Beauty,Face Wash,1,75,75,UPI,Pune
+T0172,C022,Vivaan Patel,2025-08-02,Electronics,Keyboard,4,200,800,Credit Card,Pune
+T0173,C023,Aditya Patel,2025-08-28,Clothing,Jeans,4,500,2000,Credit Card,Delhi
+T0174,C023,Aditya Patel,2025-05-05,Grocery,Tea,3,500,1500,Debit Card,Delhi
+T0175,C023,Aditya Patel,2026-01-17,Grocery,Tea,2,200,400,Credit Card,Delhi
+T0176,C023,Aditya Patel,2025-07-10,Clothing,T-Shirt,2,75,150,Credit Card,Delhi
+T0177,C023,Aditya Patel,2025-12-01,Electronics,Keyboard,3,50,150,Credit Card,Delhi
+T0178,C023,Aditya Patel,2025-04-13,Beauty,Face Wash,1,20,20,Cash,Delhi
+T0179,C024,Rahul Patel,2025-08-25,Beauty,Shampoo,1,75,75,Credit Card,Bengaluru
+T0180,C024,Rahul Patel,2025-05-03,Electronics,Mouse,5,500,2500,Credit Card,Bengaluru
+T0181,C024,Rahul Patel,2025-03-18,Grocery,Rice,4,500,2000,Debit Card,Bengaluru
+T0182,C024,Rahul Patel,2025-01-07,Electronics,Headphones,5,500,2500,Debit Card,Bengaluru
+T0183,C024,Rahul Patel,2025-08-11,Electronics,Keyboard,3,40,120,UPI,Bengaluru
+T0184,C024,Rahul Patel,2025-07-28,Grocery,Rice,5,50,250,UPI,Bengaluru
+T0185,C025,Arjun Patel,2025-12-02,Beauty,Shampoo,2,500,1000,Debit Card,Hyderabad
+T0186,C025,Arjun Patel,2025-03-21,Clothing,T-Shirt,4,300,1200,Cash,Hyderabad
+T0187,C025,Arjun Patel,2025-03-06,Beauty,Face Wash,4,300,1200,Credit Card,Hyderabad
+T0188,C025,Arjun Patel,2026-07-01,Electronics,Headphones,2,150,300,Debit Card,Hyderabad
+T0189,C025,Arjun Patel,2026-02-24,Grocery,Tea,4,20,80,Debit Card,Hyderabad
+T0190,C025,Arjun Patel,2026-01-01,Beauty,Shampoo,1,100,100,Credit Card,Hyderabad
+T0191,C026,Rohan Patel,2026-02-05,Beauty,Face Wash,1,150,150,Credit Card,Chennai
+T0192,C026,Rohan Patel,2026-03-10,Electronics,Mouse,4,500,2000,Debit Card,Chennai
+T0193,C026,Rohan Patel,2026-04-17,Clothing,T-Shirt,1,20,20,Credit Card,Chennai
+T0194,C026,Rohan Patel,2026-02-11,Electronics,Headphones,5,100,500,Credit Card,Chennai
+T0195,C026,Rohan Patel,2025-05-30,Grocery,Tea,2,300,600,Credit Card,Chennai
+T0196,C026,Rohan Patel,2025-03-10,Electronics,Keyboard,4,50,200,Debit Card,Chennai
+T0197,C027,Priya Patel,2025-05-10,Electronics,Keyboard,3,20,60,Cash,Kolkata
+T0198,C027,Priya Patel,2025-03-30,Home,Bottle,2,500,1000,Cash,Kolkata
+T0199,C027,Priya Patel,2025-07-20,Beauty,Face Wash,5,50,250,UPI,Kolkata
+T0200,C027,Priya Patel,2026-02-14,Home,Bottle,4,100,400,UPI,Kolkata
+T0201,C027,Priya Patel,2025-06-03,Clothing,T-Shirt,1,300,300,UPI,Kolkata
+T0202,C027,Priya Patel,2025-11-28,Electronics,Keyboard,5,200,1000,Debit Card,Kolkata
+T0203,C028,Sneha Patel,2026-03-07,Grocery,Rice,4,150,600,Debit Card,Ahmedabad
+T0204,C028,Sneha Patel,2026-04-03,Home,Mixer,2,20,40,UPI,Ahmedabad
+T0205,C028,Sneha Patel,2026-05-17,Beauty,Face Wash,4,500,2000,Cash,Ahmedabad
+T0206,C028,Sneha Patel,2025-07-03,Beauty,Shampoo,1,30,30,Credit Card,Ahmedabad
+T0207,C028,Sneha Patel,2026-01-03,Beauty,Shampoo,1,200,200,UPI,Ahmedabad
+T0208,C028,Sneha Patel,2025-02-11,Clothing,T-Shirt,3,300,900,UPI,Ahmedabad
+T0209,C029,Ananya Patel,2025-02-25,Home,Mixer,2,20,40,UPI,Surat
+T0210,C029,Ananya Patel,2025-04-23,Clothing,T-Shirt,4,75,300,Credit Card,Surat
+T0211,C029,Ananya Patel,2025-08-15,Electronics,Keyboard,5,75,375,Credit Card,Surat
+T0212,C029,Ananya Patel,2025-11-28,Home,Mixer,4,40,160,Debit Card,Surat
+T0213,C029,Ananya Patel,2026-05-30,Beauty,Face Wash,5,75,375,Credit Card,Surat
+T0214,C029,Ananya Patel,2025-11-23,Grocery,Rice,2,40,80,Cash,Surat
+T0215,C030,Ayesha Patel,2025-06-15,Grocery,Tea,4,40,160,Debit Card,Jaipur
+T0216,C030,Ayesha Patel,2025-04-28,Home,Bottle,3,200,600,UPI,Jaipur
+T0217,C030,Ayesha Patel,2025-09-16,Home,Mixer,3,75,225,Cash,Jaipur
+T0218,C030,Ayesha Patel,2026-01-13,Home,Bottle,3,100,300,UPI,Jaipur
+T0219,C030,Ayesha Patel,2026-03-29,Clothing,T-Shirt,5,20,100,Debit Card,Jaipur
+T0220,C030,Ayesha Patel,2026-06-13,Grocery,Tea,5,100,500,UPI,Jaipur
+T0221,C031,Neha Patel,2025-02-04,Clothing,T-Shirt,3,500,1500,Cash,Mumbai
+T0222,C031,Neha Patel,2026-03-04,Home,Mixer,1,40,40,Cash,Mumbai
+T0223,C031,Neha Patel,2025-08-21,Home,Bottle,1,20,20,UPI,Mumbai
+T0224,C031,Neha Patel,2025-12-30,Grocery,Rice,5,100,500,Credit Card,Mumbai
+T0225,C031,Neha Patel,2026-02-28,Home,Mixer,5,40,200,Credit Card,Mumbai
+T0226,C031,Neha Patel,2026-01-11,Home,Mixer,2,40,80,UPI,Mumbai
+T0227,C032,Karan Patel,2025-09-07,Clothing,Jeans,1,30,30,Credit Card,Pune
+T0228,C032,Karan Patel,2025-10-04,Beauty,Shampoo,1,20,20,Debit Card,Pune
+T0229,C032,Karan Patel,2026-03-31,Home,Mixer,2,40,80,UPI,Pune
+T0230,C032,Karan Patel,2025-02-15,Electronics,Headphones,1,150,150,Credit Card,Pune
+T0231,C032,Karan Patel,2025-09-01,Clothing,T-Shirt,1,20,20,Credit Card,Pune
+T0232,C032,Karan Patel,2025-05-26,Beauty,Face Wash,5,500,2500,Cash,Pune
+T0233,C033,Ishita Patel,2025-06-28,Home,Mixer,1,75,75,UPI,Delhi
+T0234,C033,Ishita Patel,2026-05-05,Home,Bottle,4,150,600,Cash,Delhi
+T0235,C033,Ishita Patel,2025-03-24,Beauty,Face Wash,2,30,60,Debit Card,Delhi
+T0236,C033,Ishita Patel,2025-08-26,Electronics,Mouse,3,75,225,UPI,Delhi
+T0237,C033,Ishita Patel,2025-09-30,Home,Mixer,5,75,375,Debit Card,Delhi
+T0238,C033,Ishita Patel,2025-08-11,Electronics,Headphones,1,40,40,Debit Card,Delhi
+T0239,C034,Meera Patel,2025-08-30,Clothing,T-Shirt,3,50,150,Cash,Bengaluru
+T0240,C034,Meera Patel,2025-12-03,Home,Bottle,4,300,1200,Cash,Bengaluru
+T0241,C034,Meera Patel,2026-04-29,Home,Bottle,1,150,150,Credit Card,Bengaluru
+T0242,C034,Meera Patel,2025-11-12,Clothing,Jeans,5,500,2500,UPI,Bengaluru
+T0243,C034,Meera Patel,2025-06-25,Clothing,T-Shirt,1,30,30,UPI,Bengaluru
+T0244,C034,Meera Patel,2025-06-15,Grocery,Rice,1,20,20,UPI,Bengaluru
+T0245,C035,Kabir Patel,2025-05-22,Electronics,Headphones,1,20,20,UPI,Hyderabad
+T0246,C035,Kabir Patel,2026-01-08,Clothing,T-Shirt,4,30,120,Credit Card,Hyderabad
+T0247,C035,Kabir Patel,2025-07-30,Clothing,T-Shirt,1,20,20,UPI,Hyderabad
+T0248,C035,Kabir Patel,2025-10-22,Beauty,Face Wash,2,30,60,Credit Card,Hyderabad
+T0249,C035,Kabir Patel,2025-10-29,Grocery,Tea,4,75,300,UPI,Hyderabad
+T0250,C035,Kabir Patel,2025-12-26,Grocery,Tea,1,100,100,Debit Card,Hyderabad
+T0251,C036,Sanya Patel,2026-05-31,Beauty,Shampoo,5,20,100,Cash,Chennai
+T0252,C036,Sanya Patel,2025-02-01,Beauty,Face Wash,3,200,600,UPI,Chennai
+T0253,C036,Sanya Patel,2025-08-10,Electronics,Headphones,3,40,120,Cash,Chennai
+T0254,C036,Sanya Patel,2025-01-02,Home,Bottle,3,20,60,UPI,Chennai
+T0255,C036,Sanya Patel,2025-12-23,Beauty,Face Wash,4,40,160,Cash,Chennai
+T0256,C036,Sanya Patel,2025-12-22,Home,Mixer,5,40,200,Debit Card,Chennai
+T0257,C037,Riya Patel,2025-08-08,Clothing,Jeans,2,30,60,UPI,Kolkata
+T0258,C037,Riya Patel,2026-05-18,Home,Bottle,3,100,300,UPI,Kolkata
+T0259,C037,Riya Patel,2026-02-15,Beauty,Face Wash,4,20,80,Debit Card,Kolkata
+T0260,C037,Riya Patel,2025-07-31,Grocery,Tea,4,300,1200,Credit Card,Kolkata
+T0261,C037,Riya Patel,2026-01-24,Clothing,Jeans,2,300,600,UPI,Kolkata
+T0262,C037,Riya Patel,2025-12-23,Home,Mixer,5,40,200,Cash,Kolkata
+T0263,C038,Aditi Patel,2025-11-28,Clothing,Jeans,4,75,300,Credit Card,Ahmedabad
+T0264,C038,Aditi Patel,2025-05-10,Grocery,Tea,2,300,600,Credit Card,Ahmedabad
+T0265,C038,Aditi Patel,2025-10-01,Grocery,Rice,2,50,100,Debit Card,Ahmedabad
+T0266,C038,Aditi Patel,2026-06-19,Grocery,Rice,2,100,200,Credit Card,Ahmedabad
+T0267,C038,Aditi Patel,2025-09-22,Electronics,Mouse,1,50,50,Cash,Ahmedabad
+T0268,C038,Aditi Patel,2025-06-04,Clothing,Jeans,3,150,450,Debit Card,Ahmedabad
+T0269,C039,Yash Patel,2025-07-20,Electronics,Headphones,1,75,75,Credit Card,Surat
+T0270,C039,Yash Patel,2026-02-02,Beauty,Face Wash,1,150,150,Cash,Surat
+T0271,C039,Yash Patel,2025-08-16,Home,Mixer,4,20,80,Credit Card,Surat
+T0272,C039,Yash Patel,2025-09-21,Home,Mixer,1,50,50,Cash,Surat
+T0273,C039,Yash Patel,2026-03-08,Clothing,T-Shirt,2,30,60,Cash,Surat
+T0274,C039,Yash Patel,2026-03-19,Grocery,Tea,1,150,150,Credit Card,Surat
+T0275,C040,Nikhil Patel,2026-02-14,Clothing,Jeans,4,200,800,Cash,Jaipur
+T0276,C040,Nikhil Patel,2025-01-21,Home,Mixer,5,40,200,Debit Card,Jaipur
+T0277,C040,Nikhil Patel,2025-01-11,Beauty,Shampoo,1,20,20,Debit Card,Jaipur
+T0278,C040,Nikhil Patel,2025-08-12,Clothing,T-Shirt,5,100,500,UPI,Jaipur
+T0279,C040,Nikhil Patel,2026-04-13,Home,Bottle,4,300,1200,UPI,Jaipur
+T0280,C040,Nikhil Patel,2026-01-14,Home,Mixer,4,200,800,Credit Card,Jaipur
+T0281,C041,Aarav Verma,2025-07-08,Beauty,Face Wash,5,100,500,UPI,Mumbai
+T0282,C041,Aarav Verma,2025-09-16,Grocery,Tea,4,20,80,UPI,Mumbai
+T0283,C041,Aarav Verma,2025-03-18,Beauty,Shampoo,3,500,1500,Debit Card,Mumbai
+T0284,C041,Aarav Verma,2025-04-22,Clothing,Jeans,4,300,1200,Credit Card,Mumbai
+T0285,C041,Aarav Verma,2026-02-06,Beauty,Face Wash,2,40,80,UPI,Mumbai
+T0286,C041,Aarav Verma,2025-07-17,Beauty,Face Wash,2,100,200,Cash,Mumbai
+T0287,C042,Vivaan Verma,2026-04-25,Grocery,Rice,4,100,400,Credit Card,Pune
+T0288,C042,Vivaan Verma,2025-10-01,Beauty,Shampoo,4,40,160,Cash,Pune
+T0289,C042,Vivaan Verma,2025-01-03,Grocery,Tea,2,75,150,Debit Card,Pune
+T0290,C042,Vivaan Verma,2026-05-07,Beauty,Shampoo,5,30,150,Debit Card,Pune
+T0291,C042,Vivaan Verma,2025-06-06,Grocery,Tea,1,30,30,Debit Card,Pune
+T0292,C042,Vivaan Verma,2025-05-24,Home,Mixer,5,20,100,UPI,Pune
+T0293,C043,Aditya Verma,2025-08-03,Electronics,Headphones,3,75,225,UPI,Delhi
+T0294,C043,Aditya Verma,2025-05-27,Clothing,T-Shirt,4,100,400,Credit Card,Delhi
+T0295,C043,Aditya Verma,2025-08-02,Beauty,Face Wash,5,500,2500,UPI,Delhi
+T0296,C043,Aditya Verma,2025-11-01,Clothing,Jeans,2,300,600,UPI,Delhi
+T0297,C043,Aditya Verma,2026-03-26,Electronics,Headphones,1,75,75,Cash,Delhi
+T0298,C043,Aditya Verma,2025-08-28,Clothing,Jeans,4,300,1200,UPI,Delhi
+T0299,C044,Rahul Verma,2026-05-11,Beauty,Face Wash,4,50,200,Cash,Bengaluru
+T0300,C044,Rahul Verma,2025-06-18,Home,Bottle,2,100,200,Cash,Bengaluru
+T0301,C044,Rahul Verma,2026-05-25,Grocery,Tea,3,150,450,Cash,Bengaluru
+T0302,C044,Rahul Verma,2025-03-19,Clothing,Jeans,1,20,20,UPI,Bengaluru
+T0303,C044,Rahul Verma,2025-12-05,Electronics,Headphones,4,200,800,Credit Card,Bengaluru
+T0304,C044,Rahul Verma,2025-02-04,Clothing,Jeans,2,100,200,UPI,Bengaluru
+T0305,C045,Arjun Verma,2026-01-10,Grocery,Tea,5,300,1500,Credit Card,Hyderabad
+T0306,C045,Arjun Verma,2025-10-18,Beauty,Shampoo,4,75,300,UPI,Hyderabad
+T0307,C045,Arjun Verma,2025-10-24,Grocery,Tea,4,150,600,Debit Card,Hyderabad
+T0308,C045,Arjun Verma,2026-05-31,Grocery,Tea,2,200,400,UPI,Hyderabad
+T0309,C045,Arjun Verma,2025-12-05,Clothing,Jeans,3,40,120,UPI,Hyderabad
+T0310,C045,Arjun Verma,2025-02-11,Beauty,Shampoo,5,500,2500,UPI,Hyderabad
+T0311,C046,Rohan Verma,2026-02-13,Grocery,Rice,1,20,20,Credit Card,Chennai
+T0312,C046,Rohan Verma,2026-05-02,Home,Bottle,5,300,1500,Cash,Chennai
+T0313,C046,Rohan Verma,2025-05-31,Home,Bottle,2,20,40,Cash,Chennai
+T0314,C046,Rohan Verma,2025-06-28,Electronics,Headphones,2,20,40,Cash,Chennai
+T0315,C046,Rohan Verma,2025-04-14,Electronics,Keyboard,2,75,150,Debit Card,Chennai
+T0316,C046,Rohan Verma,2025-11-06,Clothing,Jeans,1,100,100,UPI,Chennai
+T0317,C047,Priya Verma,2026-03-18,Home,Bottle,4,500,2000,UPI,Kolkata
+T0318,C047,Priya Verma,2025-05-02,Beauty,Shampoo,4,30,120,UPI,Kolkata
+T0319,C047,Priya Verma,2026-02-01,Home,Bottle,4,150,600,UPI,Kolkata
+T0320,C047,Priya Verma,2025-03-26,Beauty,Face Wash,2,20,40,Cash,Kolkata
+T0321,C047,Priya Verma,2025-01-05,Electronics,Headphones,1,30,30,Credit Card,Kolkata
+T0322,C047,Priya Verma,2025-05-05,Clothing,Jeans,1,75,75,Credit Card,Kolkata
+T0323,C048,Sneha Verma,2026-04-07,Clothing,T-Shirt,3,40,120,UPI,Ahmedabad
+T0324,C048,Sneha Verma,2025-10-28,Home,Mixer,4,75,300,UPI,Ahmedabad
+T0325,C048,Sneha Verma,2025-02-02,Electronics,Mouse,1,500,500,UPI,Ahmedabad
+T0326,C048,Sneha Verma,2026-02-03,Grocery,Tea,5,40,200,Cash,Ahmedabad
+T0327,C048,Sneha Verma,2025-03-03,Grocery,Tea,5,200,1000,Cash,Ahmedabad
+T0328,C048,Sneha Verma,2025-06-20,Clothing,T-Shirt,3,40,120,Cash,Ahmedabad
+T0329,C049,Ananya Verma,2026-05-04,Beauty,Shampoo,3,500,1500,Debit Card,Surat
+T0330,C049,Ananya Verma,2025-10-27,Grocery,Rice,5,500,2500,Debit Card,Surat
+T0331,C049,Ananya Verma,2025-01-16,Clothing,Jeans,5,150,750,Credit Card,Surat
+T0332,C049,Ananya Verma,2026-01-21,Beauty,Shampoo,5,50,250,Cash,Surat
+T0333,C049,Ananya Verma,2025-10-18,Electronics,Keyboard,3,75,225,Cash,Surat
+T0334,C049,Ananya Verma,2025-06-11,Home,Bottle,3,40,120,Credit Card,Surat
+T0335,C050,Ayesha Verma,2025-10-08,Home,Mixer,3,300,900,UPI,Jaipur
+T0336,C050,Ayesha Verma,2026-05-12,Beauty,Face Wash,2,75,150,UPI,Jaipur
+T0337,C050,Ayesha Verma,2026-02-09,Beauty,Face Wash,3,500,1500,UPI,Jaipur
+T0338,C050,Ayesha Verma,2026-01-30,Beauty,Face Wash,5,100,500,UPI,Jaipur
+T0339,C050,Ayesha Verma,2025-08-27,Beauty,Shampoo,5,100,500,Cash,Jaipur
+T0340,C050,Ayesha Verma,2026-06-03,Home,Bottle,2,50,100,Credit Card,Jaipur
+T0341,C051,Neha Verma,2025-04-05,Clothing,Jeans,3,500,1500,Debit Card,Mumbai
+T0342,C051,Neha Verma,2026-02-17,Home,Bottle,2,20,40,Cash,Mumbai
+T0343,C051,Neha Verma,2026-01-19,Electronics,Keyboard,4,30,120,Credit Card,Mumbai
+T0344,C051,Neha Verma,2025-11-20,Home,Bottle,3,75,225,UPI,Mumbai
+T0345,C051,Neha Verma,2025-04-07,Electronics,Mouse,5,200,1000,Credit Card,Mumbai
+T0346,C051,Neha Verma,2025-09-25,Grocery,Tea,1,200,200,Credit Card,Mumbai
+T0347,C052,Karan Verma,2025-09-18,Electronics,Keyboard,2,40,80,Cash,Pune
+T0348,C052,Karan Verma,2025-03-27,Electronics,Mouse,1,300,300,Debit Card,Pune
+T0349,C052,Karan Verma,2026-04-15,Beauty,Face Wash,5,150,750,UPI,Pune
+T0350,C052,Karan Verma,2025-04-03,Grocery,Tea,5,50,250,UPI,Pune
+T0351,C052,Karan Verma,2026-06-03,Beauty,Face Wash,4,40,160,Debit Card,Pune
+T0352,C052,Karan Verma,2025-08-29,Clothing,T-Shirt,1,75,75,Debit Card,Pune
+T0353,C053,Ishita Verma,2025-03-02,Home,Bottle,1,75,75,Cash,Delhi
+T0354,C053,Ishita Verma,2025-02-27,Electronics,Mouse,3,20,60,Credit Card,Delhi
+T0355,C053,Ishita Verma,2025-11-02,Home,Mixer,1,200,200,Debit Card,Delhi
+T0356,C053,Ishita Verma,2026-01-16,Grocery,Tea,1,100,100,Cash,Delhi
+T0357,C053,Ishita Verma,2026-01-24,Clothing,Jeans,2,40,80,UPI,Delhi
+T0358,C053,Ishita Verma,2026-04-25,Clothing,T-Shirt,2,50,100,UPI,Delhi
+T0359,C054,Meera Verma,2026-01-18,Clothing,Jeans,1,150,150,UPI,Bengaluru
+T0360,C054,Meera Verma,2025-03-18,Beauty,Shampoo,3,50,150,Cash,Bengaluru
+T0361,C054,Meera Verma,2025-04-29,Grocery,Rice,3,50,150,UPI,Bengaluru
+T0362,C054,Meera Verma,2025-07-04,Beauty,Face Wash,4,40,160,Debit Card,Bengaluru
+T0363,C054,Meera Verma,2026-03-05,Beauty,Face Wash,2,20,40,Debit Card,Bengaluru
+T0364,C054,Meera Verma,2025-10-31,Grocery,Rice,3,200,600,UPI,Bengaluru
+T0365,C055,Kabir Verma,2025-11-22,Beauty,Shampoo,1,40,40,UPI,Hyderabad
+T0366,C055,Kabir Verma,2025-08-05,Home,Mixer,3,30,90,Debit Card,Hyderabad
+T0367,C055,Kabir Verma,2025-07-26,Grocery,Tea,3,50,150,Credit Card,Hyderabad
+T0368,C055,Kabir Verma,2025-04-10,Beauty,Shampoo,4,40,160,UPI,Hyderabad
+T0369,C055,Kabir Verma,2025-10-28,Clothing,T-Shirt,4,300,1200,Debit Card,Hyderabad
+T0370,C055,Kabir Verma,2026-06-08,Clothing,Jeans,1,300,300,Debit Card,Hyderabad
+T0371,C056,Sanya Verma,2025-07-10,Grocery,Tea,1,150,150,Credit Card,Chennai
+T0372,C056,Sanya Verma,2025-10-11,Home,Bottle,2,40,80,Credit Card,Chennai
+T0373,C056,Sanya Verma,2025-06-29,Clothing,T-Shirt,1,500,500,Cash,Chennai
+T0374,C056,Sanya Verma,2025-10-08,Clothing,T-Shirt,2,500,1000,Credit Card,Chennai
+T0375,C056,Sanya Verma,2025-11-12,Clothing,T-Shirt,1,300,300,Cash,Chennai
+T0376,C056,Sanya Verma,2025-02-26,Home,Mixer,3,75,225,Cash,Chennai
+T0377,C057,Riya Verma,2025-04-03,Electronics,Keyboard,4,40,160,Debit Card,Kolkata
+T0378,C057,Riya Verma,2025-09-12,Clothing,Jeans,1,40,40,Debit Card,Kolkata
+T0379,C057,Riya Verma,2025-01-05,Grocery,Tea,5,30,150,UPI,Kolkata
+T0380,C057,Riya Verma,2026-01-01,Clothing,Jeans,4,500,2000,UPI,Kolkata
+T0381,C057,Riya Verma,2025-10-26,Electronics,Headphones,4,200,800,UPI,Kolkata
+T0382,C057,Riya Verma,2026-06-28,Home,Bottle,1,50,50,UPI,Kolkata
+T0383,C058,Aditi Verma,2025-08-18,Home,Bottle,2,30,60,Debit Card,Ahmedabad
+T0384,C058,Aditi Verma,2025-09-14,Home,Bottle,1,30,30,Credit Card,Ahmedabad
+T0385,C058,Aditi Verma,2025-09-25,Electronics,Headphones,5,200,1000,Credit Card,Ahmedabad
+T0386,C058,Aditi Verma,2026-03-31,Electronics,Keyboard,1,40,40,UPI,Ahmedabad
+T0387,C058,Aditi Verma,2025-10-07,Electronics,Keyboard,4,500,2000,Debit Card,Ahmedabad
+T0388,C058,Aditi Verma,2025-04-23,Electronics,Mouse,4,40,160,Credit Card,Ahmedabad
+T0389,C059,Yash Verma,2025-08-21,Clothing,Jeans,4,40,160,UPI,Surat
+T0390,C059,Yash Verma,2026-02-03,Beauty,Face Wash,4,20,80,Debit Card,Surat
+T0391,C059,Yash Verma,2025-12-13,Beauty,Face Wash,3,150,450,Debit Card,Surat
+T0392,C059,Yash Verma,2026-02-15,Home,Bottle,3,300,900,Credit Card,Surat
+T0393,C059,Yash Verma,2025-12-28,Clothing,Jeans,1,100,100,UPI,Surat
+T0394,C059,Yash Verma,2026-06-28,Clothing,T-Shirt,3,150,450,Credit Card,Surat
+T0395,C060,Nikhil Verma,2026-06-01,Electronics,Mouse,2,150,300,Cash,Jaipur
+T0396,C060,Nikhil Verma,2026-04-10,Electronics,Mouse,1,500,500,Debit Card,Jaipur
+T0397,C060,Nikhil Verma,2025-10-07,Home,Bottle,5,30,150,Debit Card,Jaipur
+T0398,C060,Nikhil Verma,2025-05-05,Home,Bottle,4,50,200,UPI,Jaipur
+T0399,C060,Nikhil Verma,2025-10-22,Electronics,Keyboard,3,40,120,UPI,Jaipur
+T0400,C060,Nikhil Verma,2025-03-03,Home,Mixer,1,200,200,Credit Card,Jaipur
+T0401,C061,Aarav Singh,2025-04-23,Electronics,Headphones,2,75,150,Cash,Mumbai
+T0402,C061,Aarav Singh,2025-05-28,Grocery,Tea,2,30,60,Debit Card,Mumbai
+T0403,C061,Aarav Singh,2025-04-27,Home,Bottle,4,50,200,Debit Card,Mumbai
+T0404,C061,Aarav Singh,2025-04-28,Home,Mixer,5,200,1000,Cash,Mumbai
+T0405,C062,Vivaan Singh,2025-03-21,Electronics,Mouse,3,50,150,Credit Card,Pune
+T0406,C062,Vivaan Singh,2025-05-12,Home,Mixer,5,150,750,UPI,Pune
+T0407,C062,Vivaan Singh,2025-04-01,Clothing,T-Shirt,3,300,900,Debit Card,Pune
+T0408,C062,Vivaan Singh,2025-05-06,Grocery,Tea,2,75,150,UPI,Pune
+T0409,C063,Aditya Singh,2025-01-06,Clothing,T-Shirt,5,100,500,Cash,Delhi
+T0410,C063,Aditya Singh,2025-06-18,Electronics,Headphones,4,200,800,Debit Card,Delhi
+T0411,C063,Aditya Singh,2025-01-28,Home,Bottle,2,150,300,Debit Card,Delhi
+T0412,C063,Aditya Singh,2025-06-21,Grocery,Rice,2,500,1000,Debit Card,Delhi
+T0413,C064,Rahul Singh,2025-05-13,Electronics,Headphones,4,75,300,Credit Card,Bengaluru
+T0414,C064,Rahul Singh,2025-04-16,Electronics,Mouse,4,300,1200,UPI,Bengaluru
+T0415,C064,Rahul Singh,2025-05-08,Beauty,Face Wash,4,75,300,UPI,Bengaluru
+T0416,C064,Rahul Singh,2025-04-08,Beauty,Shampoo,3,100,300,Debit Card,Bengaluru
+T0417,C065,Arjun Singh,2025-04-01,Beauty,Shampoo,3,20,60,Cash,Hyderabad
+T0418,C065,Arjun Singh,2025-04-08,Beauty,Shampoo,2,300,600,Debit Card,Hyderabad
+T0419,C065,Arjun Singh,2025-02-07,Beauty,Shampoo,5,50,250,UPI,Hyderabad
+T0420,C065,Arjun Singh,2025-03-26,Grocery,Rice,3,50,150,Cash,Hyderabad
+T0421,C066,Rohan Singh,2025-01-03,Electronics,Mouse,3,500,1500,Cash,Chennai
+T0422,C066,Rohan Singh,2025-03-18,Home,Mixer,5,500,2500,Cash,Chennai
+T0423,C066,Rohan Singh,2025-05-13,Home,Mixer,4,200,800,Debit Card,Chennai
+T0424,C066,Rohan Singh,2025-01-11,Home,Mixer,4,20,80,UPI,Chennai
+T0425,C067,Priya Singh,2025-05-15,Clothing,T-Shirt,4,100,400,Cash,Kolkata
+T0426,C067,Priya Singh,2025-06-16,Home,Bottle,2,150,300,Cash,Kolkata
+T0427,C067,Priya Singh,2025-04-13,Beauty,Shampoo,5,30,150,Credit Card,Kolkata
+T0428,C067,Priya Singh,2025-04-03,Grocery,Tea,1,75,75,Credit Card,Kolkata
+T0429,C068,Sneha Singh,2025-01-29,Grocery,Tea,5,150,750,Credit Card,Ahmedabad
+T0430,C068,Sneha Singh,2025-05-15,Grocery,Rice,5,50,250,Cash,Ahmedabad
+T0431,C068,Sneha Singh,2025-02-16,Electronics,Headphones,5,500,2500,UPI,Ahmedabad
+T0432,C068,Sneha Singh,2025-04-01,Home,Bottle,4,20,80,UPI,Ahmedabad
+T0433,C069,Ananya Singh,2025-03-20,Home,Bottle,3,150,450,UPI,Surat
+T0434,C069,Ananya Singh,2025-05-31,Electronics,Headphones,1,50,50,Credit Card,Surat
+T0435,C069,Ananya Singh,2025-05-08,Home,Mixer,5,300,1500,Credit Card,Surat
+T0436,C069,Ananya Singh,2025-05-28,Clothing,Jeans,5,30,150,Credit Card,Surat
+T0437,C070,Ayesha Singh,2025-02-10,Home,Bottle,1,30,30,UPI,Jaipur
+T0438,C070,Ayesha Singh,2025-02-13,Home,Mixer,4,500,2000,Cash,Jaipur
+T0439,C070,Ayesha Singh,2025-01-16,Electronics,Headphones,5,100,500,Credit Card,Jaipur
+T0440,C070,Ayesha Singh,2025-03-02,Grocery,Tea,2,20,40,Debit Card,Jaipur
+T0441,C071,Neha Singh,2025-06-10,Electronics,Headphones,1,100,100,Credit Card,Mumbai
+T0442,C071,Neha Singh,2025-04-26,Home,Mixer,1,20,20,Credit Card,Mumbai
+T0443,C071,Neha Singh,2025-04-12,Home,Bottle,4,20,80,Credit Card,Mumbai
+T0444,C071,Neha Singh,2025-03-05,Clothing,T-Shirt,2,500,1000,Credit Card,Mumbai
+T0445,C072,Karan Singh,2025-03-22,Electronics,Keyboard,3,150,450,Debit Card,Pune
+T0446,C072,Karan Singh,2025-05-07,Electronics,Mouse,4,500,2000,Credit Card,Pune
+T0447,C072,Karan Singh,2025-04-16,Grocery,Tea,4,20,80,Credit Card,Pune
+T0448,C072,Karan Singh,2025-01-23,Clothing,T-Shirt,3,150,450,Credit Card,Pune
+T0449,C073,Ishita Singh,2025-01-02,Grocery,Tea,5,100,500,UPI,Delhi
+T0450,C073,Ishita Singh,2025-03-27,Home,Mixer,3,150,450,UPI,Delhi
+T0451,C073,Ishita Singh,2025-02-01,Beauty,Shampoo,5,50,250,Cash,Delhi
+T0452,C073,Ishita Singh,2025-02-18,Beauty,Shampoo,3,50,150,Cash,Delhi
+T0453,C074,Meera Singh,2025-01-09,Grocery,Rice,3,40,120,Credit Card,Bengaluru
+T0454,C074,Meera Singh,2025-06-30,Clothing,T-Shirt,2,75,150,Credit Card,Bengaluru
+T0455,C074,Meera Singh,2025-05-23,Beauty,Shampoo,2,40,80,Debit Card,Bengaluru
+T0456,C074,Meera Singh,2025-04-01,Clothing,Jeans,4,500,2000,Credit Card,Bengaluru
+T0457,C075,Kabir Singh,2025-03-18,Beauty,Face Wash,2,200,400,Credit Card,Hyderabad
+T0458,C075,Kabir Singh,2025-06-30,Grocery,Tea,5,100,500,Credit Card,Hyderabad
+T0459,C075,Kabir Singh,2025-04-14,Home,Bottle,2,30,60,UPI,Hyderabad
+T0460,C075,Kabir Singh,2025-05-19,Grocery,Tea,1,500,500,Credit Card,Hyderabad
+T0461,C076,Sanya Singh,2025-03-21,Electronics,Keyboard,1,40,40,Credit Card,Chennai
+T0462,C076,Sanya Singh,2025-03-24,Clothing,T-Shirt,1,300,300,Debit Card,Chennai
+T0463,C076,Sanya Singh,2025-05-09,Grocery,Rice,1,75,75,UPI,Chennai
+T0464,C076,Sanya Singh,2025-02-27,Grocery,Rice,4,75,300,Debit Card,Chennai
+T0465,C077,Riya Singh,2025-04-14,Beauty,Face Wash,3,40,120,UPI,Kolkata
+T0466,C077,Riya Singh,2025-04-04,Grocery,Tea,1,200,200,Credit Card,Kolkata
+T0467,C077,Riya Singh,2025-04-13,Grocery,Rice,2,75,150,UPI,Kolkata
+T0468,C077,Riya Singh,2025-03-11,Home,Bottle,1,150,150,UPI,Kolkata
+T0469,C078,Aditi Singh,2025-06-05,Clothing,Jeans,2,75,150,Credit Card,Ahmedabad
+T0470,C078,Aditi Singh,2025-04-08,Electronics,Headphones,3,40,120,Credit Card,Ahmedabad
+T0471,C078,Aditi Singh,2025-05-26,Beauty,Shampoo,4,500,2000,Debit Card,Ahmedabad
+T0472,C078,Aditi Singh,2025-01-01,Electronics,Headphones,3,20,60,UPI,Ahmedabad
+T0473,C079,Yash Singh,2025-03-04,Electronics,Mouse,3,50,150,Debit Card,Surat
+T0474,C079,Yash Singh,2025-01-23,Beauty,Shampoo,5,50,250,Debit Card,Surat
+T0475,C079,Yash Singh,2025-05-15,Electronics,Keyboard,4,200,800,Debit Card,Surat
+T0476,C079,Yash Singh,2025-06-27,Home,Mixer,5,20,100,Credit Card,Surat
+T0477,C080,Nikhil Singh,2025-04-20,Home,Bottle,4,50,200,UPI,Jaipur
+T0478,C080,Nikhil Singh,2025-06-29,Home,Mixer,2,300,600,Credit Card,Jaipur
+T0479,C080,Nikhil Singh,2025-06-13,Clothing,Jeans,2,20,40,Credit Card,Jaipur
+T0480,C080,Nikhil Singh,2025-04-02,Grocery,Tea,1,50,50,Debit Card,Jaipur
+T0481,C081,Aarav Iyer,2026-05-09,Clothing,Jeans,4,50,200,Credit Card,Mumbai
+T0482,C082,Vivaan Iyer,2026-05-01,Home,Mixer,2,100,200,Debit Card,Pune
+T0483,C083,Aditya Iyer,2026-05-09,Clothing,T-Shirt,3,30,90,Cash,Delhi
+T0484,C084,Rahul Iyer,2026-06-18,Clothing,T-Shirt,5,200,1000,Cash,Bengaluru
+T0485,C085,Arjun Iyer,2026-06-23,Clothing,T-Shirt,3,20,60,Debit Card,Hyderabad
+T0486,C086,Rohan Iyer,2026-06-01,Clothing,T-Shirt,1,75,75,Debit Card,Chennai
+T0487,C087,Priya Iyer,2026-05-13,Electronics,Headphones,3,200,600,UPI,Kolkata
+T0488,C088,Sneha Iyer,2026-05-11,Grocery,Tea,4,500,2000,Debit Card,Ahmedabad
+T0489,C089,Ananya Iyer,2026-05-19,Clothing,T-Shirt,1,20,20,Cash,Surat
+T0490,C090,Ayesha Iyer,2026-06-18,Beauty,Face Wash,3,500,1500,Debit Card,Jaipur
+T0491,C091,Neha Iyer,2026-05-07,Beauty,Shampoo,4,50,200,Debit Card,Mumbai
+T0492,C092,Karan Iyer,2026-05-01,Grocery,Rice,3,500,1500,Debit Card,Pune
+T0493,C093,Ishita Iyer,2026-06-11,Clothing,T-Shirt,2,20,40,UPI,Delhi
+T0494,C094,Meera Iyer,2026-06-19,Beauty,Face Wash,3,100,300,Credit Card,Bengaluru
+T0495,C095,Kabir Iyer,2026-06-10,Home,Bottle,1,75,75,Debit Card,Hyderabad
+T0496,C096,Sanya Iyer,2026-05-25,Clothing,Jeans,3,50,150,Debit Card,Chennai
+T0497,C097,Riya Iyer,2026-05-09,Home,Mixer,3,50,150,UPI,Kolkata
+T0498,C098,Aditi Iyer,2026-05-03,Electronics,Headphones,4,20,80,Credit Card,Ahmedabad
+T0499,C099,Yash Iyer,2026-06-01,Beauty,Shampoo,2,75,150,UPI,Surat
+T0500,C100,Nikhil Iyer,2026-05-10,Clothing,T-Shirt,2,200,400,Cash,Jaipur
